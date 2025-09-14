@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 export const useCountdown = (initialMinutes: number, onEnd: () => void) => {
   const [totalSeconds, setTotalSeconds] = useState(initialMinutes * 60);
   const [isActive, setIsActive] = useState(true);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   const startTimer = () => {
     if (!intervalRef.current) {

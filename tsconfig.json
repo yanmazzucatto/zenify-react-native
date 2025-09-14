@@ -7,5 +7,17 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "components/CreatePostModal.js",
+    "app/(tabs)/rede.js",
+    "app/premium.js",
+    "app/focustimer.js",
+    "app/(tabs)/index.js",
+    "app/(tabs)/objetivos.js",
+    "app/(tabs)/perfil.js"
+  ]
 }

@@ -26,6 +26,13 @@ export const lightTheme = {
   primary: palette.mainPurple,
   tabIcon: palette.lightGray,
   tabIconActive: palette.mainPurple,
+  white: palette.white,
+  cardBackground: palette.white,
+  border: palette.lightGray,
+  inputBackground: palette.white,
+  icon: palette.lightGray,
+  accent: palette.green,
+  red: palette.red,
 };
 
 export const darkTheme = {
@@ -36,6 +43,13 @@ export const darkTheme = {
   primary: palette.mainPurple,
   tabIcon: palette.lightGray,
   tabIconActive: palette.lightMainPurple,
+  white: palette.white,
+  cardBackground: palette.darkCard,
+  border: palette.mediumGray,
+  inputBackground: palette.mediumGray,
+  icon: palette.lightGray,
+  accent: palette.green,
+  red: palette.red,
 };
 
 export type Theme = typeof lightTheme;
